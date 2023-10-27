@@ -2,472 +2,524 @@
 <html lang="en">
 
 <head>
-    <style>
-    </style>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="pcce techyon2023 event website ">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="ext-style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <style>
+  </style>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="pcce techyon2023 event website ">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="ext-style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
-    <script src="https://use.fontawesome.com/03f8a0ebd4.js" async></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" async></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" async></script> 
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,600;1,300&family=Gemunu+Libre:wght@200&family=Play&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&family=Xanh+Mono&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Gemunu+Libre:wght@200&family=Play&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&family=Xanh+Mono&display=swap" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <script src="https://use.fontawesome.com/03f8a0ebd4.js" async></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" async></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" async></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,600;1,300&family=Gemunu+Libre:wght@200&family=Play&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&family=Xanh+Mono&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Gemunu+Libre:wght@200&family=Play&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&family=Xanh+Mono&display=swap"
+    rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 
 <body id="Home" class="overflow-x-hidden bg-black dark:bg-white dark:text-gray-900 text-white ">
 
 
-    <div class="container mx-auto">
-      <header>
-        <!--Navbar below-->
-        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
-        <div style="font-family: 'Poppins';" class="h-88 bg-black dark:bg-white dark:text-black  ">
-          <div
-            class=" fixed z-20 top-0 w-full bg-black  dark:bg-white bg-gray-800   border-b-1 lg:p-4 shadow-lg container mx-auto  ">
-  
-            <div x-data="{ open: false }"
-              class=" flex flex-col  max-w-screen-xl px-4  mx-auto md:items-center md:flex-row md:px-6 justify-between md:flex-wrap">
-              <div class="m-2  inline-flex justify-center space-x-2 md:w-screen lg:w-max">
-  
-                <img class="logo" src="images/PCCE_Logo.png" alt="pcce_logo">
-                <!-- <a class='  chakra   font-bold  outline-none  text-6xl  md:text-5xl ' href='/'>Techyon</a> -->
-  
-                <div class="space-y-3 px-8 text-center typewriter-div">
-                  <div class="typewriter-effect text-1xl md:text-4xl font-bold">
-                    <div class="text" id="typewriter-text"></div>
-                  </div>
+  <div class="container mx-auto">
+    <header>
+      <!--Navbar below-->
+      <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+      <div style="font-family: 'Poppins';" class="h-88 bg-black dark:bg-white dark:text-black  ">
+        <div
+          class=" fixed z-20 top-0 w-full bg-black  dark:bg-white bg-gray-800   border-b-1 lg:p-4 shadow-lg container mx-auto  ">
+
+          <div x-data="{ open: false }"
+            class=" flex flex-col  max-w-screen-xl px-4  mx-auto md:items-center md:flex-row md:px-6 justify-between md:flex-wrap">
+            <div class="m-2  inline-flex justify-center space-x-2 md:w-screen lg:w-max">
+
+              <a href="./index.html" class="logo"><img class="logo" src="images/PCCE_Logo.png" alt="pcce_logo"></a>
+              <!-- <a class='  chakra   font-bold  outline-none  text-6xl  md:text-5xl ' href='/'>Techyon</a> -->
+
+              <div class="space-y-3 px-8 text-center typewriter-div">
+                <div class="typewriter-effect text-1xl md:text-4xl font-bold">
+                  <div class="text" id="typewriter-text"></div>
                 </div>
-              </div>
-              <div class="p-4 flex flex-row  justify-end menu-box">
-                <div class="flex self-start lg:mx-6 pr-8 flex justify-center">
-                  <div>
-                    <span id="toggle" onclick="darkFunction()"><i id="icon"
-                        class="transition-all duration-700 fas fa-sun text-yellow-400 dark:text-black"
-                        style="font-size:24px" id="change"></i></span>
-                  </div>
-                </div>
-  
-                <div class="p-4 flex flex-row  justify-end ">
-  
-                  <button class=" md:hidden rounded-lg focus:outline-none focus:shadow-outline " @click="open = !open"
-                    id="toggle">
-                    <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6 text-white dark:text-black">
-                      <path x-show="!open" fill-rule="evenodd"
-                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
-                        clip-rule="evenodd"></path>
-                      <path x-show="open" fill-rule="evenodd"
-                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                        clip-rule="evenodd"></path>
-                    </svg>
-                  </button>
-                </div>
-                <nav :class="{'flex': open, 'hidden': !open}"
-                  class="flex-col flex-grow pb-4 md:pb-2 lg:pb-0 hidden md:flex  md:justify-center lg:justify-end md:flex-row dark:bg-white dark:text-black ">
-                  <a class="smooth  py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
-                    href="#Home">Home</a>
-                  <a class=" smooth  py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
-                    href="#Events">Events</a>
-                  <a class="smooth   py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
-                    href="#Sponsors">Associates</a>
-  
-                  <a class="smooth py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
-                    href="#Contactus">Contact</a>
-  
-                  <a class="smooth py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
-                    href="#Team">Team</a>
-                  <a class='smooth bg-blue-600 py-2 px-4 m-1  rounded-lg  hover:bg-black text-white transition duration-300'
-                    href='result/results.html'>Results</a>
-                </nav>
               </div>
             </div>
-  
+            <div class="p-4 flex flex-row  justify-end menu-box">
+              <div class="flex self-start lg:mx-6 pr-8 flex justify-center">
+                <div>
+                  <span id="toggle" onclick="darkFunction()"><i id="icon"
+                      class="transition-all duration-700 fas fa-sun text-yellow-400 dark:text-black"
+                      style="font-size:24px" id="change"></i></span>
+                </div>
+              </div>
+
+              <div class="p-4 flex flex-row  justify-end ">
+
+                <button class=" md:hidden rounded-lg focus:outline-none focus:shadow-outline " @click="open = !open"
+                  id="toggle">
+                  <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6 text-white dark:text-black">
+                    <path x-show="!open" fill-rule="evenodd"
+                      d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                      clip-rule="evenodd"></path>
+                    <path x-show="open" fill-rule="evenodd"
+                      d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                      clip-rule="evenodd"></path>
+                  </svg>
+                </button>
+              </div>
+              <nav :class="{'flex': open, 'hidden': !open}"
+                class="flex-col flex-grow pb-4 md:pb-2 lg:pb-0 hidden md:flex  md:justify-center lg:justify-end md:flex-row dark:bg-white dark:text-black ">
+                <a class="smooth  py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
+                  href="#Home">Home</a>
+                <a class=" smooth  py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
+                  href="#Events">Events</a>
+                <a class="smooth   py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
+                  href="#Sponsors">Associates</a>
+
+                <a class="smooth py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
+                  href="#Contactus">Contact</a>
+
+                <a class="smooth py-2 px-4 m-1 hover:bg-white rounded-lg hover:text-black text-white dark:hover:bg-blue-400 dark:text-black dark:hover:text-white transition duration-300"
+                  href="#Team">Team</a>
+                <a class='smooth bg-blue-600 py-2 px-4 m-1  rounded-lg  hover:bg-black text-white transition duration-300'
+                  href='result/results.html'>Results</a>
+              </nav>
+            </div>
           </div>
-      </header>
-        <!--  header images /title -->
-        <div class=" container mx-auto text-white mt-28 xl:mt-10" style="background: url(./video/intro_vid.gif);
+
+        </div>
+    </header>
+    <!--  header images /title -->
+    <div class=" container mx-auto text-white mt-28 xl:mt-10" style="background: url(./video/intro_vid.gif);
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;">
-            <div class="   flex flex-row-reverse justify-center flex-wrap pb-20 pt-36" style="margin:auto; align-items: center;background: rgba(0, 0, 0, 0.722);">
+      <div class="   flex flex-row-reverse justify-center flex-wrap pb-20 pt-36"
+        style="margin:auto; align-items: center;background: rgba(0, 0, 0, 0.722);">
 
-                <!-- <img onclick="darkFunction()" class="cursor-pointer illustration  w-full lg:w-1/2 " src="images/innovation-animate.svg" alt="header_image"> -->
+        <!-- <img onclick="darkFunction()" class="cursor-pointer illustration  w-full lg:w-1/2 " src="images/innovation-animate.svg" alt="header_image"> -->
 
 
 
-                <div class="  w-full lg:w-1/2 self-center dark:text-black  p-2 text-center  ">
-                    <div class="inline-flex 
+        <div class="  w-full lg:w-1/2 self-center dark:text-black  p-2 text-center  ">
+          <div class="inline-flex 
           ">
-                        <img width="450px" class="" data-aos="fade-right" src="images/Logo-Techyon-2023.svg" alt="pcce_logo">
+            <img width="450px" class="" data-aos="fade-right" src="images/Logo-Techyon-2023.svg" alt="pcce_logo">
 
-                    </div>
-                    <!-- <h1 class="text-3xl text-blue-900 font-bold mb-2">TECHYON 2021</h1> -->
-                    <div data-aos="zoom-in">
-                      <p
-                        class="roboto uppercase my-6 font-extrabold text-transparent text-xl md:text-3xl bg-clip-text bg-gradient-to-r from-purple-600 to-blue-900" style="background:rgba(22, 21, 21, 0.784);border-radius:10px; color:rgb(0, 128, 255);width:fit-content; margin:auto;margin-bottom:10px;margin-top:5px;">
-                        PCCE Goa Annual Technical College Fest</p>
-                      <h1 class=" chakra my-6  text-white font-bold text-2xl bg-gradient-to-r from-purple-200 to-blue-600" style="width:70%;margin:auto; border-radius: 10px;padding:3px;">9<sup>TH</sup>
-                        NOV - 11<sup>TH</sup> NOV </h1>
-                      <div class="inline-flex sm:flex-nowrap flex-wrap justify-center">
-                        <a href="#Events"
-                          class=" self-center text-xl smooth py-2 px-3 m-1 bg-blue-600    rounded-lg  hover:bg-black text-white transition duration-200 border-2 border-transparent hover:border-blue-400">Events</a>
-                        <a class="self-center smooth  bg-green-400 py-2 px-3 m-1  rounded-lg  hover:bg-green-600 text-white transition duration-200 border-2 border-transparent hover:border-white"
-                          href="Schedule.pdf" download>
-                          <i class="far fa-calendar-alt" style="font-size:24px"> </i></i></a>
-                        <a class=' self-center text-xl sm:hidden smooth py-2 px-3 m-1 bg-red-400  rounded-lg  hover:bg-black text-white transition duration-200 border-2 border-transparent hover:border-white inline-flex '
-                          href='/results'><i class=" px-1 fas fa-trophy" style="font-size:24px"></i></a>
-                      </div>
-          
-                    </div>
-
-                </div>
+          </div>
+          <!-- <h1 class="text-3xl text-blue-900 font-bold mb-2">TECHYON 2021</h1> -->
+          <div data-aos="zoom-in">
+            <p class="roboto uppercase my-6 font-extrabold text-transparent text-xl md:text-3xl bg-clip-text bg-gradient-to-r from-purple-600 to-blue-900"
+              style="background:rgba(22, 21, 21, 0.784);border-radius:10px; color:rgb(0, 128, 255);width:fit-content; margin:auto;margin-bottom:10px;margin-top:5px;">
+              PCCE Goa Annual Technical College Fest</p>
+            <h1 class=" chakra my-6  text-white font-bold text-2xl bg-gradient-to-r from-purple-200 to-blue-600"
+              style="width:70%;margin:auto; border-radius: 10px;padding:3px;">9<sup>TH</sup>
+              NOV - 11<sup>TH</sup> NOV </h1>
+            <div class="inline-flex sm:flex-nowrap flex-wrap justify-center">
+              <a href="#Events"
+                class=" self-center text-xl smooth py-2 px-3 m-1 bg-blue-600    rounded-lg  hover:bg-black text-white transition duration-200 border-2 border-transparent hover:border-blue-400">Events</a>
+              <a class="self-center smooth  bg-green-400 py-2 px-3 m-1  rounded-lg  hover:bg-green-600 text-white transition duration-200 border-2 border-transparent hover:border-white"
+                href="Schedule.pdf" download>
+                <i class="far fa-calendar-alt" style="font-size:24px"> </i></i></a>
+              <a class=' self-center text-xl sm:hidden smooth py-2 px-3 m-1 bg-red-400  rounded-lg  hover:bg-black text-white transition duration-200 border-2 border-transparent hover:border-white inline-flex '
+                href='/results'><i class=" px-1 fas fa-trophy" style="font-size:24px"></i></a>
             </div>
 
+          </div>
 
         </div>
+      </div>
 
 
-        <!-- back to top  -->
-        <button onclick="topFunction()" id="myBtn" class="  p-2.5   md:m-2   text-white   bg-blue-400 opacity-75 hover:bg-blue-900 hover:opacity-100 transition-all duration-500 ease-in-out rounded-full  z-50">
+    </div>
+
+
+    <!-- back to top  -->
+    <button onclick="topFunction()" id="myBtn"
+      class="  p-2.5   md:m-2   text-white   bg-blue-400 opacity-75 hover:bg-blue-900 hover:opacity-100 transition-all duration-500 ease-in-out rounded-full  z-50">
       <span><i class="fa fa-chevron-up "></i></span>
     </button>
 
 
 
-        <!-- SPONSORS SECTION  -->
+    <!-- SPONSORS SECTION  -->
 
-        <section id="Sponsors" class="  flex items-center text-gray-600  mt-1 bg-black dark:bg-white px-6   justify-center ">
-            <div class="  container mx-auto md:m-6  my-6">
-                <div class="text-center ">
-                    <h1 class=" chakra  text-3xl text-white font-semibold uppercase faq dark:text-black mb-8">Event Associates
-                    </h1>
-                </div>
-                <div class="flex flex-row flex-wrap dark:shadow-none justify-center   ">
+    <section id="Sponsors"
+      class="  flex items-center text-gray-600  mt-1 bg-black dark:bg-white px-6   justify-center ">
+      <div class="  container mx-auto md:m-6  my-6">
+        <div class="text-center ">
+          <h1 class=" chakra  text-3xl text-white font-semibold uppercase faq dark:text-black mb-8">Event Associates
+          </h1>
+        </div>
+        <div class="flex flex-row flex-wrap dark:shadow-none justify-center   ">
 
 
-                    <div class="w-1/5 md:w-1/6 m-1">
-                        <div class="h-full  flex bg-white    rounded-lg overflow-hidden shadow-xl justify-center ">
-                            <a target="_blank" href="https://bidchat.in/" class="self-center">
+          <div class="w-1/5 md:w-1/6 m-1">
+            <div class="h-full  flex bg-white    rounded-lg overflow-hidden shadow-xl justify-center ">
+              <a target="_blank" href="https://bidchat.in/" class="self-center">
                 <img loading="eager" data-aos="zoom-in" class="   bg-white object-contain   p-2  "
                   src="images/sp/design-guru.svg" alt="image1">
               </a>
-                        </div>
-                    </div>
+            </div>
+          </div>
 
 
-                    <!--1 ENDD-->
-                    <!--2 card-->
-                    <div class="w-1/5 md:w-1/6 m-1">
-                        <div class="h-full  m- flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl justify-center ">
-                            <a target="_blank" href="https://sjinnovation.com/" class="self-center">
+          <!--1 ENDD-->
+          <!--2 card-->
+          <div class="w-1/5 md:w-1/6 m-1">
+            <div
+              class="h-full  m- flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl justify-center ">
+              <a target="_blank" href="https://sjinnovation.com/" class="self-center">
                 <img loading="eager" data-aos="zoom-in" class="    bg-white object-contain    p-2  "
                   src="images/sp/Graphics.svg" alt="image1">
               </a>
 
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <!--2ENDD-->
-                    <!--3card-->
+          <!--2ENDD-->
+          <!--3card-->
 
-                    <div class="w-1/5 md:w-1/6 m-1 ">
-                        <div class="h-full  m- flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl justify-center ">
-                            <a target="_blank" href="https://www.tangentia.com/" class="self-center">
+          <div class="w-1/5 md:w-1/6 m-1 ">
+            <div
+              class="h-full  m- flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl justify-center ">
+              <a target="_blank" href="https://www.tangentia.com/" class="self-center">
                 <img loading="eager" data-aos="zoom-in" class="    bg-white object-contain    p-2  "
                   src="images/sp/sses.svg" alt="image1">
               </a>
 
-                        </div>
-                    </div>
+            </div>
+          </div>
 
 
-                    <div class="w-1/5 md:w-1/6 m-1 ">
-                        <div class="h-full  m- flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl justify-center ">
-                            <a target="_blank" href="https://numadic.com/" class="self-center">
+          <div class="w-1/5 md:w-1/6 m-1 ">
+            <div
+              class="h-full  m- flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl justify-center ">
+              <a target="_blank" href="https://numadic.com/" class="self-center">
                 <img loading="eager" data-aos="zoom-in" class="    bg-white object-contain    p-2  "
                   src="images/sp/STEELZEST.svg" alt="image1">
               </a>
 
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <!--3END-->
-                    <!--4card-->
-                    <div class="w-1/5 md:w-1/6 m-1">
-                        <div class="h-full   flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl justify-center ">
-                            <a target="_blank" href="https://www.creativecapsule.com/" class="self-center">
+          <!--3END-->
+          <!--4card-->
+          <div class="w-1/5 md:w-1/6 m-1">
+            <div
+              class="h-full   flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl justify-center ">
+              <a target="_blank" href="https://www.creativecapsule.com/" class="self-center">
                 <img loading="eager" data-aos="zoom-in" class="    bg-white object-contain   p-2  "
                   src="images/sp/creative capsule.png" alt="image1">
               </a>
 
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <div class="w-1/4 md:w-1/6 m-1 ">
-                        <div class="h-full  m- flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl justify-center ">
-                            <a target="_blank" href="https://imagine-works.com/" class="self-center">
+          <div class="w-1/4 md:w-1/6 m-1 ">
+            <div
+              class="h-full  m- flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl justify-center ">
+              <a target="_blank" href="https://imagine-works.com/" class="self-center">
                 <img data-aos="zoom-in" class="    bg-white object-contain    p-2  " src="images/sp/imagine works.png"
                   alt="image1">
               </a>
 
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <div class="w-1/5 md:w-1/6 m-1 ">
-                        <div class="h-full  flex bg-white     rounded-lg overflow-hidden shadow-xl justify-center ">
-                            <a target="_blank" href="https://www.codingninjas.com/" class="self-center">
+          <div class="w-1/5 md:w-1/6 m-1 ">
+            <div class="h-full  flex bg-white     rounded-lg overflow-hidden shadow-xl justify-center ">
+              <a target="_blank" href="https://www.codingninjas.com/" class="self-center">
                 <img data-aos="zoom-in" class="    bg-white object-contain    p-2  " src="images/sp/coding ninjas.png"
                   alt="image1">
               </a>
 
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <div class="w-1/5 md:w-1/6 m-1 ">
-                        <div class="h-full  m- flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl justify-center ">
-                            <a target="_blank" href="https://www.zimetrics.com/" class="self-center">
+          <div class="w-1/5 md:w-1/6 m-1 ">
+            <div
+              class="h-full  m- flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl justify-center ">
+              <a target="_blank" href="https://www.zimetrics.com/" class="self-center">
                 <img data-aos="zoom-in" class="    bg-white object-contain    p-2  " src="images/sp/zimetrics 1.png"
                   alt="image1">
               </a>
 
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <div class="w-1/5 md:w-1/6 m-1">
-                        <div class="h-full  m- flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl justify-center ">
-                            <a target="_blank" href="https://umangsoftware.com/" class="self-center">
+          <div class="w-1/5 md:w-1/6 m-1">
+            <div
+              class="h-full  m- flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl justify-center ">
+              <a target="_blank" href="https://umangsoftware.com/" class="self-center">
                 <img data-aos="zoom-in" class="    bg-white object-contain    p-2 " src="images/sp/umang.png"
                   alt="image1">
               </a>
 
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <div class="w-1/5 md:w-1/6 m-1 ">
-                        <div class="h-full  m- flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl justify-center  ">
-                            <a target="_blank" href="https://iodroplet.com/" class="self-center">
+          <div class="w-1/5 md:w-1/6 m-1 ">
+            <div
+              class="h-full  m- flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl justify-center  ">
+              <a target="_blank" href="https://iodroplet.com/" class="self-center">
                 <img data-aos="zoom-in" class="    bg-white object-contain   p-2 " src="images/sp/IO Droplet.png"
                   alt="image1">
               </a>
 
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <div class="w-1/4 md:w-1/6 m-2 ">
-                        <div class="h-full  m- flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl ">
-                            <a target="_blank" href="#" class="self-center">
+          <div class="w-1/4 md:w-1/6 m-2 ">
+            <div class="h-full  m- flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl ">
+              <a target="_blank" href="#" class="self-center">
                 <img data-aos="zoom-in" class="    bg-white object-contain    p-3  " src="images/sp/SZ Engineers 1.png"
                   alt="image1">
               </a>
 
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <div class="w-1/5 md:w-1/6 m-1 ">
-                        <div class="h-full   flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl justify-center ">
-                            <a target="_blank" href="https://www.facebook.com/Prabhudesais-ELITE-Dental-Care-and-Diagnostic-Centre-1306873312822549/" class="self-center">
+          <div class="w-1/5 md:w-1/6 m-1 ">
+            <div
+              class="h-full   flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl justify-center ">
+              <a target="_blank"
+                href="https://www.facebook.com/Prabhudesais-ELITE-Dental-Care-and-Diagnostic-Centre-1306873312822549/"
+                class="self-center">
                 <img data-aos="zoom-in" class="    bg-white object-contain    p-2  "
                   src="images/sp/Prabhu dessai elite dental care 1.png" alt="image1">
               </a>
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <div class="w-1/4 md:w-1/6 m-2 ">
-                        <div class="h-full  m- flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl ">
-                            <a target="_blank" href="#" class="self-center">
+          <div class="w-1/4 md:w-1/6 m-2 ">
+            <div class="h-full  m- flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl ">
+              <a target="_blank" href="#" class="self-center">
                 <img data-aos="zoom-in" class="    bg-white object-contain    p-3  "
                   src="images/sp/s narvekar constructions 2.png" alt="image1">
               </a>
 
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <div class="w-1/5 md:w-1/6 m-1 ">
-                        <div class="h-full   flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl justify-center ">
-                            <a target="_blank" href="https://www.hexcoderz.com/" class="self-center">
+          <div class="w-1/5 md:w-1/6 m-1 ">
+            <div
+              class="h-full   flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl justify-center ">
+              <a target="_blank" href="https://www.hexcoderz.com/" class="self-center">
                 <img data-aos="zoom-in" class="    bg-white object-contain    p-2  " src="images/sp/hexcoderz.png"
                   alt="image1">
               </a>
-                        </div>
-                    </div>
+            </div>
+          </div>
 
 
-                    <!--first card-->
-                    <div class="w-1/5 md:w-1/6 m-1">
-                        <div class="h-full  flex  bg-white   rounded-lg overflow-hidden shadow-xl justify-center ">
-                            <a target="_blank" href="https://www.blissbuild.com/" class="self-center">
+          <!--first card-->
+          <div class="w-1/5 md:w-1/6 m-1">
+            <div class="h-full  flex  bg-white   rounded-lg overflow-hidden shadow-xl justify-center ">
+              <a target="_blank" href="https://www.blissbuild.com/" class="self-center">
                 <img data-aos="zoom-in" class="    object-contain    p-2 " src="images/sp/BLISS BUILD.png" alt="image1">
               </a>
 
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <div class="w-1/5 md:w-1/6 m-1 ">
-                        <div class="h-full  flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl justify-center  ">
-                            <a target="_blank" href="https://fathamster.studio/" class="self-center">
+          <div class="w-1/5 md:w-1/6 m-1 ">
+            <div
+              class="h-full  flex bg-white  justify-items-center  rounded-lg overflow-hidden shadow-xl justify-center  ">
+              <a target="_blank" href="https://fathamster.studio/" class="self-center">
                 <img data-aos="zoom-in" class="    bg-white object-contain    p-2 " src="images/sp/fat hamster.png"
                   alt="image1">
               </a>
 
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <div class="w-1/5 md:w-1/6 m-1">
-                        <div class="h-full  flex bg-white  rounded-lg overflow-hidden shadow-xl justify-center ">
-                            <a target="_blank" href="https://pccegoa.edu.in/me-student-chapters/" class="self-center">
+          <div class="w-1/5 md:w-1/6 m-1">
+            <div class="h-full  flex bg-white  rounded-lg overflow-hidden shadow-xl justify-center ">
+              <a target="_blank" href="https://pccegoa.edu.in/me-student-chapters/" class="self-center">
                 <img data-aos="zoom-in" class="    bg-white object-contain  p-2 " src="images/sp/cosme.png"
                   alt="image1">
               </a>
 
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <!--2 ENDD-->
-                    <!--3card-->
-                    <div class="w-1/4 md:w-1/6 m-2">
-                        <div class="h-full  flex bg-white  rounded-lg overflow-hidden shadow-xl ">
-                            <a target="_blank" href="#" class="self-center">
+          <!--2 ENDD-->
+          <!--3card-->
+          <div class="w-1/4 md:w-1/6 m-2">
+            <div class="h-full  flex bg-white  rounded-lg overflow-hidden shadow-xl ">
+              <a target="_blank" href="#" class="self-center">
                 <img data-aos="zoom-in" class="    bg-white object-contain    p-3  " src="images/sp/bhp.png"
                   alt="image1">
               </a>
 
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <!--8ENDD-->
-                    <!--9card-->
-                    <div class="w-1/5 md:w-1/6 m-1 ">
-                        <div class="h-full   flex bg-white justify-center   rounded-lg overflow-hidden shadow-xl ">
-                            <a target="_blank" href="https://pccegoa.edu.in/et-studentchapters/" class="self-center">
+          <!--8ENDD-->
+          <!--9card-->
+          <div class="w-1/5 md:w-1/6 m-1 ">
+            <div class="h-full   flex bg-white justify-center   rounded-lg overflow-hidden shadow-xl ">
+              <a target="_blank" href="https://pccegoa.edu.in/et-studentchapters/" class="self-center">
                 <img data-aos="zoom-in" class="    bg-white object-contain    p-2  " src="images/sp/ETC logo.png"
                   alt="image1">
               </a>
 
-                        </div>
-                    </div>
+            </div>
+          </div>
 
 
-                    <div class="w-1/5 md:w-1/6 m-1">
-                        <div class="h-full   flex bg-white  justify-center   rounded-lg overflow-hidden shadow-xl ">
-                            <a target="_blank" href="https://pccegoa.edu.in/it-studentchapters/" class="self-center">
+          <div class="w-1/5 md:w-1/6 m-1">
+            <div class="h-full   flex bg-white  justify-center   rounded-lg overflow-hidden shadow-xl ">
+              <a target="_blank" href="https://pccegoa.edu.in/it-studentchapters/" class="self-center">
                 <img data-aos="zoom-in" class="    bg-white object-contain    p-2 "
                   src="images/sp/SUIT_Logo_final 1.png" alt="image1">
               </a>
 
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <!--21ENDD-->
-                    <!--22card-->
-                    <!--22card-->
-                    <div class="w-1/5 md:w-1/6 m-1 ">
-                        <div class="h-full   flex bg-white  justify-center  rounded-lg overflow-hidden shadow-xl ">
-                            <a target="_blank" href="https://pccegoa.edu.in/et-studentchapters/" class="self-center">
+          <!--21ENDD-->
+          <!--22card-->
+          <!--22card-->
+          <div class="w-1/5 md:w-1/6 m-1 ">
+            <div class="h-full   flex bg-white  justify-center  rounded-lg overflow-hidden shadow-xl ">
+              <a target="_blank" href="https://pccegoa.edu.in/et-studentchapters/" class="self-center">
                 <img data-aos="zoom-in" class="  bg-white object-contain   p-2  " src="images/sp/race.jpeg"
                   alt="image1">
               </a>
 
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <div class="w-1/5 md:w-1/6 m-1 ">
-                        <div class="h-full   flex bg-white  justify-center  rounded-lg overflow-hidden shadow-xl ">
-                            <a target="_blank" href="https://pccegoa.edu.in/et-studentchapters/" class="self-center">
+          <div class="w-1/5 md:w-1/6 m-1 ">
+            <div class="h-full   flex bg-white  justify-center  rounded-lg overflow-hidden shadow-xl ">
+              <a target="_blank" href="https://pccegoa.edu.in/et-studentchapters/" class="self-center">
                 <img data-aos="zoom-in" class="  bg-white object-contain   p-2  " src="images/sp/ETC.png" alt="image1">
               </a>
 
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <!--22ENDD-->
+          <!--22ENDD-->
 
-                    <div class="w-1/4 md:w-1/6 m-2">
-                        <div class="h-full  flex bg-white   rounded-lg overflow-hidden shadow-xl ">
-                            <a target="_blank" href="https://pccegoa.edu.in/ces-studentchapters/" class="self-center">
+          <div class="w-1/4 md:w-1/6 m-2">
+            <div class="h-full  flex bg-white   rounded-lg overflow-hidden shadow-xl ">
+              <a target="_blank" href="https://pccegoa.edu.in/ces-studentchapters/" class="self-center">
                 <img data-aos="zoom-in" class="    bg-white object-contain   p-2  " src="images/sp/ACE logo.png"
                   alt="image1">
               </a>
 
-                        </div>
-                    </div>
+            </div>
+          </div>
 
 
-                </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- SPONSORS SECTION END  -->
-        <!--  OUR EVENTS CARDS -->
+    <!-- SPONSORS SECTION END  -->
+    <!--  OUR EVENTS CARDS -->
 
-        <section id="Events" class=" flex items-center text-gray-600  mt-6 bg-black dark:bg-white px-6 md:px-12  ">
-            <div class="  container px-5 py-5 mx-auto">
-                <div class="text-center mb-12 ">
-                    <h1 class=" chakra  text-4xl text-white font-semibold uppercase faq dark:text-black">Events</h1>
-                </div>
-                <div class="main-dept">
+    <section id="Events" class=" flex items-center text-gray-600  mt-6 bg-black dark:bg-white px-6 md:px-12  ">
+      <div class="  container px-5 py-5 mx-auto">
+        <div class="text-center mb-12 ">
+          <h1 class=" chakra  text-4xl text-white font-semibold uppercase faq dark:text-black">Events</h1>
+        </div>
+        <div class="main-dept">
 
-                  <div class="all">
-                    <div class="all-dept category_item" id="ALL">
-                      <img src="./images/Enigma Thumbnails/1.png" alt="IT">
-                      <img src="./images/Enigma Thumbnails/1.png" alt="MECH">
-                      <img src="./images/Enigma Thumbnails/1.png" alt="ECOMP">
-                      <img src="./images/Enigma Thumbnails/1.png" alt="COMP">
-                    </div>
-                    <div class="dept-cover dept-cover-all">ALL</div>
-                  </div>
-      
-                  <div class="dept-names">
-                    <div class="departments">
-                      <button id="IT" class="category_item">
-                        <img src="./images/Enigma Thumbnails/1.png">
-                      </button>
-                      <div class="dept-cover">IT</div>
-                    </div>
-      
-                    <div class="departments">
-                      <button id="MECH" class="category_item"><img src="./images/Enigma Thumbnails/1.png"></button>
-                      <div class="dept-cover">MECH</div>
-                    </div>
-      
-                    <div class="departments">
-                      <button id="COMP" class="category_item"><img src="./images/Enigma Thumbnails/1.png"></button>
-                      <div class="dept-cover">COMP</div>
-                    </div>
-      
-                    <div class="departments">
-                      <button id="ETC" class="category_item"> <img src="./images/Enigma Thumbnails/1.png"></button>
-                      <div class="dept-cover">ECOMP</div>
-                    </div>
-                  </div>
-                </div>
+          <div class="all">
+            <div class="all-dept category_item" id="ALL">
+              <img src="./images/Enigma Thumbnails/1.png" alt="IT">
+              <img src="./images/Enigma Thumbnails/1.png" alt="MECH">
+              <img src="./images/Enigma Thumbnails/1.png" alt="ECOMP">
+              <img src="./images/Enigma Thumbnails/1.png" alt="COMP">
+            </div>
+            <div class="dept-cover dept-cover-all">ALL</div>
+          </div>
 
-                <div class="mt-14">
-                  <button class="day_button" onclick="filterByDay1()">Day 1</button>
-                  <button class="day_button" onclick="filterByDay2()">Day 2</button>
-                  <button class="day_button" onclick="filterByDay3()">Day 3</button>
-                </div>
-                <div>
-                  <button class="category_button" onclick="filterByinter()">Inter</button>
-                  <button class="category_button" onclick="filterByintra()">Intra</button>
-                </div>
-                
-              
+          <div class="dept-names">
+            <div class="departments">
+              <button id="IT" class="category_item">
+                <img src="./images/Enigma Thumbnails/1.png">
+              </button>
+              <div class="dept-cover">IT</div>
+            </div>
 
-                <div class="flex flex-wrap lg:p-24 ">
-                    <!-- COMP  -->
-                    <!--1 card-->
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  COMP">
-                        <div class=" h-full border-gray-200  rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                            <a href='./event/event.html?event=datahack'>
+            <div class="departments">
+              <button id="MECH" class="category_item"><img src="./images/Enigma Thumbnails/1.png"></button>
+              <div class="dept-cover">MECH</div>
+            </div>
+
+            <div class="departments">
+              <button id="COMP" class="category_item"><img src="./images/Enigma Thumbnails/1.png"></button>
+              <div class="dept-cover">COMP</div>
+            </div>
+
+            <div class="departments">
+              <button id="ETC" class="category_item"> <img src="./images/Enigma Thumbnails/1.png"></button>
+              <div class="dept-cover">ECOMP</div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="flex flex-row w-full justify-center flex-wrap">
+          <button
+            class="rounded-10 btn bg-blue-400 px-3 m-1 rounded-sm transition duration-500 ease-in-out hover:bg-black hover:text-white text-center"
+            id="DAY1" onclick="filterByDay('day1')"> <span class="sm:text-xl lg:text-2xl text-white">DAY
+              1</span></button>
+          <button
+            class="rounded-10 btn bg-blue-400 px-3 py-2 m-1 rounded-sm transition duration-500 ease-in-out hover:bg-black hover:text-white text-center"
+            id="DAY2" onclick="filterByDay('day2')"> <span class="sm:text-xl lg:text-2xl text-white">DAY
+              2</span></button>
+          <button
+            class="rounded-10 btn bg-blue-400 px-3 py-2 m-1 rounded-sm transition duration-500 ease-in-out hover:bg-black hover:text-white text-center"
+            id="DAY3" onclick="filterByDay('day3')"> <span class="sm:text-xl lg:text-2xl text-white">DAY
+              3</span></button>
+        </div>
+
+        <!-- event type -->
+        <div class="flex flex-row w-full justify-center flex-wrap">
+          <button onclick="filterByEventType('inter')"
+            class="rounded-10 btn bg-blue-400 px-3 m-1 rounded-sm transition duration-500 ease-in-out hover:bg-black hover:text-white text-center"
+            id="INTER"> <span class="sm:text-xl lg:text-2xl text-white">INTER</span></button>
+          <button onclick="filterByEventType('intra')"
+            class="rounded-10 btn bg-blue-400 px-3 py-2 m-1 rounded-sm transition duration-500 ease-in-out hover:bg-black hover:text-white text-center"
+            id="INTERA"> <span class="sm:text-xl lg:text-2xl text-white">INTERA</span></button>
+          <button onclick="filterByEventType('open')"
+            class="rounded-10 btn bg-blue-400 px-3 py-2 m-1 rounded-sm transition duration-500 ease-in-out hover:bg-black hover:text-white text-center"
+            id="OPEN"> <span class="sm:text-xl lg:text-2xl text-white">OPEN</span></button>
+        </div>
+
+
+        <div id="noResultMessage"
+          style="display: none; color: red; font-weight: bold; width:50%; margin:auto;margin-top:5%; text-align: center;">
+          No result found</div>
+
+
+
+
+
+
+
+        <div class="flex flex-wrap lg:p-24 ">
+          <!-- COMP  -->
+          <!--1 card-->
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  COMP">
+            <div
+              class=" h-full border-gray-200  rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+              <a href='./event/event.html?event=datahack'>
                 <img class=" md:h-56 h-48  w-screen object-fit   object-center" src="images/datahack_card.png"
                   alt="image">
 
@@ -479,13 +531,14 @@
 
                 </div>
               </a>
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  COMP">
-                        <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  COMP">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
 
-                            <a href='./event/event.html?event=code-crunch'>
+              <a href='./event/event.html?event=code-crunch'>
                 <img class=" md:h-56 h-48  w-screen object-fit    object-center" src="images/codecrunch_card.png"
                   alt="image">
 
@@ -497,12 +550,13 @@
 
                 </div>
               </a>
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <div class=" event_item p-2 sm:w-1/2 lg:w-1/3  COMP">
-                        <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                            <a href='./event/event.html?event=gamejam'>
+          <div class=" event_item p-2 sm:w-1/2 lg:w-1/3  COMP">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a href='./event/event.html?event=gamejam'>
                 <img class=" md:h-56 h-48  w-screen object-fit  object-center" src="images/gamejam_card.png"
                   alt="image">
                 <div
@@ -513,13 +567,14 @@
 
                 </div>
               </a>
-                        </div>
-                    </div>
+            </div>
+          </div>
 
 
-                    <div class=" event_item COMP  p-2 sm:w-1/2 lg:w-1/3  COMP">
-                        <div class=" h-full border-gray-200  rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                            <a href='./event/event.html?event=decrypt'>
+          <div class=" event_item COMP  p-2 sm:w-1/2 lg:w-1/3  COMP">
+            <div
+              class=" h-full border-gray-200  rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a href='./event/event.html?event=decrypt'>
                 <img class=" md:h-56 h-48  w-screen object-fit   object-center" src="images/decrypt_card.png"
                   alt="image">
                 <div
@@ -530,16 +585,17 @@
 
                 </div>
               </a>
-                        </div>
+            </div>
 
 
 
-                    </div>
-                    <!--2card-->
+          </div>
+          <!--2card-->
 
-                    <div class="event_item    p-2 sm:w-1/2 lg:w-1/3  COMP">
-                        <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                            <a href='./event/event.html?event=comp-ideate'>
+          <div class="event_item    p-2 sm:w-1/2 lg:w-1/3  COMP">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a href='./event/event.html?event=comp-ideate'>
                 <img class=" md:h-56 h-48  w-screen object-fit  object-center" src="images/Ideate_card_comp.png"
                   alt="image">
                 <div
@@ -550,16 +606,17 @@
 
                 </div>
               </a>
-                        </div>
+            </div>
 
 
-                    </div>
+          </div>
 
 
 
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  COMP">
-                        <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                            <a href='./event/event.html?event=ml-workshop'>
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  COMP">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a href='./event/event.html?event=ml-workshop'>
                 <img class=" md:h-56 h-48  w-screen object-fit   object-center" src="images/mlworkshop_card.png"
                   alt="image">
                 <div
@@ -570,15 +627,16 @@
 
                 </div>
               </a>
-                        </div>
-                    </div>
+            </div>
+          </div>
 
 
 
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  COMP">
-                        <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  COMP">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
 
-                            <a href='./event/event.html?event=build-startup'>
+              <a href='./event/event.html?event=build-startup'>
                 <img class=" md:h-56 h-48  w-screen object-fit   object-center" src="images/buildingstartups_card.png"
                   alt="image">
 
@@ -590,14 +648,15 @@
 
                 </div>
               </a>
-                        </div>
-                    </div>
+            </div>
+          </div>
 
 
 
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  COMP">
-                        <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                            <a href='./event/event.html?event=rpa'>
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  COMP">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a href='./event/event.html?event=rpa'>
                 <img class=" md:h-56 h-48  w-screen object-fit   object-center" src="images/aceworkshop_card.png"
                   alt="image">
                 <div
@@ -608,12 +667,13 @@
 
                 </div>
               </a>
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <div class=" event_item p-2 sm:w-1/2 lg:w-1/3  MECH">
-                        <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                            <a href='./event/event.html?event=bridge-building'>
+          <div class=" event_item p-2 sm:w-1/2 lg:w-1/3  MECH">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a href='./event/event.html?event=bridge-building'>
                 <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center" src="images/bridge.jpg"
                   alt="image">
                 <div
@@ -624,12 +684,13 @@
 
                 </div>
               </a>
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  MECH">
-                        <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                            <a href='./event/event.html?event=contraption'>
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  MECH">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a href='./event/event.html?event=contraption'>
                 <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
                   src="images/contraption.jpg" alt="image">
                 <div
@@ -640,12 +701,13 @@
 
                 </div>
               </a>
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <div class=" event_item p-2 sm:w-1/2 lg:w-1/3  MECH">
-                        <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                            <a href='./event/event.html?event=mechanism-building'>
+          <div class=" event_item p-2 sm:w-1/2 lg:w-1/3  MECH">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a href='./event/event.html?event=mechanism-building'>
                 <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
                   src="images/mechanism.jpg" alt="image">
                 <div
@@ -656,12 +718,13 @@
 
                 </div>
               </a>
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  MECH">
-                        <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                            <a href='./event/event.html?event=solid-works'>
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  MECH">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a href='./event/event.html?event=solid-works'>
                 <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
                   src="images/solidworks.jpg" alt="image">
                 <div
@@ -672,12 +735,13 @@
 
                 </div>
               </a>
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  MECH">
-                        <div class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                            <a href='./event/event.html?event=robotics-workshop'>
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  MECH">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a href='./event/event.html?event=robotics-workshop'>
                 <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
                   src="images/workshop.jpg" alt="image">
                 <div
@@ -688,740 +752,769 @@
 
                 </div>
               </a>
-                        </div>
-                    </div>
-
-                    <!--3card-->
-
-                    <!-- ETC -->
-                    <!--1card-->
-
-
-
-
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
-                      <div
-                        class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                        <a href='./event/event.html?event=Design-With-Canva'>
-                          <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
-                            src="images/Enigma Thumbnails/2.png" alt="image">
-                          <div
-                            class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
-        
-                            <h1 class="text-2xl font-semibold  ">Design With Canva</h1>
-                            <p class="leading-relaxed mb-6">ECOMP</p>
-        
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-        
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
-                      <div
-                        class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                        <a href='./event/event.html?event=Code-Quest'>
-                          <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
-                            src="images/Enigma Thumbnails/3.png" alt="image">
-                          <div
-                            class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
-        
-                            <h1 class="text-2xl font-semibold  ">Code Quest</h1>
-                            <p class="leading-relaxed mb-6">ECOMP</p>
-        
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-        
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
-                      <div
-                        class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                        <a href='./event/event.html?event=Electronic-Art'>
-                          <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
-                            src="images/Enigma Thumbnails/4.png " alt="image">
-                          <div
-                            class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
-        
-                            <h1 class="text-2xl font-semibold  ">Electronic-Art</h1>
-                            <p class="leading-relaxed mb-6">ECOMP</p>
-        
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-        
-        
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
-                      <div
-                        class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                        <a href='./event/event.html?event=Pitch-Tank'>
-                          <img class=" md:h-56 h-48  w-screen object-cover   object-center" src="images/Enigma Thumbnails/5.png"
-                            alt="image">
-                          <div
-                            class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
-        
-                            <h1 class="text-2xl font-semibold  ">Pitch Tank</h1>
-                            <p class="leading-relaxed mb-6">ECOMP</p>
-        
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-        
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
-                      <div
-                        class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                        <a href='./event/event.html?event=Line-Follower'>
-                          <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
-                            src="images/Enigma Thumbnails/6.png" alt="image">
-                          <div
-                            class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
-        
-                            <h1 class="text-2xl font-semibold  ">Line Follower</h1>
-                            <p class="leading-relaxed mb-6">ECOMP</p>
-        
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-        
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
-                      <div
-                        class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                        <a href='./event/event.html?event=BGMI'>
-                          <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
-                            src="images/Enigma Thumbnails/7.png" alt="image">
-                          <div
-                            class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
-        
-                            <h1 class="text-2xl font-semibold  ">BGMI</h1>
-                            <p class="leading-relaxed mb-6">ECOMP</p>
-        
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-        
-        
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
-                      <div
-                        class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                        <a href='./event/event.html?event=Photography'>
-                          <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
-                            src="images/Enigma Thumbnails/8.png" alt="image">
-                          <div
-                            class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
-        
-                            <h1 class="text-2xl font-semibold  ">Photography</h1>
-                            <p class="leading-relaxed mb-6">ECOMP</p>
-        
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-        
-        
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
-                      <div
-                        class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                        <a href='./event/event.html?event=Film-Making-Workshop'>
-                          <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
-                            src="images/Enigma Thumbnails/9.png" alt="image">
-                          <div
-                            class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
-        
-                            <h1 class="text-2xl font-semibold  ">Film Making Workshop</h1>
-                            <p class="leading-relaxed mb-6">ECOMP</p>
-        
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-        
-        
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
-                      <div
-                        class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                        <a href='./event/event.html?event=Cosmic-Chaos'>
-                          <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
-                            src="images/Enigma Thumbnails/10.png" alt="image">
-                          <div
-                            class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
-        
-                            <h1 class="text-2xl font-semibold  ">Cosmic Chaos</h1>
-                            <p class="leading-relaxed mb-6">ECOMP</p>
-        
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-        
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
-                      <div
-                        class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                        <a href='./event/event.html?event=Reel-Estate'>
-                          <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
-                            src="images/Enigma Thumbnails/11.png" alt="image">
-                          <div
-                            class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
-        
-                            <h1 class="text-2xl font-semibold  ">Reel Estate</h1>
-                            <p class="leading-relaxed mb-6">ECOMP</p>
-        
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-
-                    <!--1E -->
-                    <!-- IT -->
-                    <!--1 card-->
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT">
-                      <div
-                        class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                        <a class='bg-transparent' href='./event/event.html?event=BGMI'>
-        
-                          <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
-                            src="images/IT POSTERS/BGMI.jpeg" alt="image">
-        
-                          <div
-                            class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
-        
-                            <h1 class="text-2xl font-semibold  ">BGMI</h1>
-                            <p class="leading-relaxed">IT</p>
-                            <p class="leading-relaxed day1">DAY 1</p>
-                            <p class="leading-relaxed intra">Intra</p>
-        
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-        
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT">
-                      <div
-                        class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                        <a class='bg-transparent' href='./event/event.html?event=Clash-Royale'>
-        
-                          <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit    object-center"
-                            src="images/IT POSTERS/ClashRoyale.jpeg" alt="image">
-        
-                          <div
-                            class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
-        
-                            <h1 class="text-2xl font-semibold  ">Clash Royale</h1>
-                            <p class="leading-relaxed">IT</p>
-                            <p class="leading-relaxed day1">DAY 1</p>
-                            <p class="leading-relaxed intra">Intra</p>
-        
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-        
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT">
-                      <div
-                        class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                        <a class='bg-transparent' href='./event/event.html?event=Codetest'>
-                          <img class=" md:h-56 h-48  w-screen object-cover   object-fit " src="images/IT POSTERS/Codetest.jpeg"
-                            alt="image">
-                          <div
-                            class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
-        
-                            <h1 class="text-2xl font-semibold  ">Codetest</h1>
-                            <p class="leading-relaxed">IT</p>
-                            <p class="leading-relaxed day1">DAY 1</p>
-                            <p class="leading-relaxed intra">Intra</p>
-        
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-        
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT">
-                      <div
-                        class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                        <a class='bg-transparent' href='./event/event.html?event=CSGO'>
-        
-                          <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit    object-center"
-                            src="images/IT POSTERS/CSGO.jpeg" alt="image">
-        
-                          <div
-                            class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
-        
-                            <h1 class="text-2xl font-semibold  ">CSGO</h1>
-                            <p class="leading-relaxed">IT</p>
-                            <p class="leading-relaxed day1">DAY 1</p>
-                            <p class="leading-relaxed inter">Inter</p>
-        
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-        
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT">
-                      <div
-                        class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                        <a class='bg-transparent' href='./event/event.html?event=Figma-Forge'>
-        
-                          <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit  object-center"
-                            src="images/IT POSTERS/Figma Forge.jpeg" alt="image">
-                          <div
-                            class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
-        
-                            <h1 class="text-2xl font-semibold  ">Figma Forge</h1>
-                            <p class="leading-relaxed">IT</p>
-                            <p class="leading-relaxed day2">DAY 2</p>
-                            <p class="leading-relaxed intra">Intra</p>
-        
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-        
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT">
-                      <div
-                        class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                        <a class='bg-transparent' href='./event/event.html?event=Lets-Solve'>
-                          <img class=" md:h-56 h-48  w-screen object-fit   object-center"
-                            src="images/IT POSTERS/Lets solve_.jpeg" alt="image">
-                          <div
-                            class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
-        
-                            <h1 class="text-2xl font-semibold  ">Lets Solve</h1>
-                            <p class="leading-relaxed">IT</p>
-                            <p class="leading-relaxed day2">DAY 2</p>
-                            <p class="leading-relaxed intra">Intra</p>
-        
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-        
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT">
-                      <div
-                        class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                        <a class='bg-transparent' href='./event/event.html?event=Power-BI-Workshop'>
-        
-                          <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit   object-center"
-                            src="images/IT POSTERS/POWER BI WORKSHOP (1).jpeg" alt="image">
-        
-                          <div
-                            class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
-        
-                            <h1 class="text-2xl font-semibold  ">Power BI Workshop</h1>
-                            <p class="leading-relaxed">IT</p>
-                            <p class="leading-relaxed day3">DAY 3</p>
-                            <p class="leading-relaxed intra">Intra</p>
-        
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-        
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT">
-                      <div
-                        class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                        <a class='bg-transparent' href='./event/event.html?event=Query-quest'>
-        
-                          <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit     object-center"
-                            src="images/IT POSTERS/QUERY QUEST.jpeg" alt="image">
-        
-                          <div
-                            class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
-        
-                            <h1 class="text-2xl font-semibold  ">Query Quest</h1>
-                            <p class="leading-relaxed">IT</p>
-                            <p class="leading-relaxed day3">DAY 3</p>
-                            <p class="leading-relaxed intra">Intra</p>
-        
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-        
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT">
-                      <div
-                        class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                        <a class='bg-transparent' href='./event/event.html?event=Qwiklabs'>
-        
-                          <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit object-center"
-                            src="images/IT POSTERS/Qwiklabs.jpeg" alt="image">
-        
-                          <div
-                            class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
-        
-                            <h1 class="text-2xl font-semibold  ">Qwiklabs</h1>
-                            <p class="leading-relaxed">IT</p>
-                            <p class="leading-relaxed day1">DAY 1</p>
-                            <p class="leading-relaxed intra">Intra</p>
-        
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-        
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT">
-                      <div
-                        class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                        <a class='bg-transparent' href='./event/event.html?event=Seminar'>
-        
-                          <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit    object-center"
-                            src="images/IT POSTERS/Seminar.jpeg" alt="image">
-        
-                          <div
-                            class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
-        
-                            <h1 class="text-2xl font-semibold  ">Talk on Empowering Innovation By MS. Farheen Sayed</h1>
-                            <p class="leading-relaxed">IT</p>
-                            <p class="leading-relaxed day1">DAY 1</p>
-                            <p class="leading-relaxed intra">Intra</p>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-        
-                    <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT">
-                      <div
-                        class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                        <a class='bg-transparent' href='./event/event.html?event=Tech-relay'>
-                          <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit     object-center"
-                            src="images/IT POSTERS/Tech relay.jpeg" alt="image">
-                          <div
-                            class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
-        
-                            <h1 class="text-2xl font-semibold mb-2">Tech Relay</h1>
-                            <p class="leading-relaxed">IT</p>
-                            <p class="leading-relaxed day1">DAY 1</p>
-                            <p class="leading-relaxed intra">Intra</p>
-    
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-
-                    <!--1E -->
-
-
-                </div>
             </div>
-        </section>
-        <!--  ENDDDD   OUR EVENTS CARDS   ENDDD -->
+          </div>
+
+          <!--3card-->
+
+          <!-- ETC -->
+          <!--1card-->
 
 
 
 
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a href='./event/event.html?event=Design-With-Canva'>
+                <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
+                  src="images/Enigma Thumbnails/2.png" alt="image">
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
 
-        <!--our team-->
+                  <h1 class="text-2xl font-semibold  ">Design With Canva</h1>
+                  <p class="leading-relaxed mb-6">ECOMP</p>
 
-        <section id="Team" class=" flex items-center text-gray-600 mt-3 bg-black dark:bg-white  px-5 md:px-12 ">
-            <div class=" container px-5 py-5 mx-auto">
-                <div class="text-center mb-12 ">
-                    <h1 class="chakra  text-4xl text-white font-semibold uppercase faq dark:text-black">Team</h1>
                 </div>
-                <div class="flex flex-wrap -m-4">
-
-                    <!--1 card-->
-                    <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
-                      <div
-                        class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                        <img loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center"
-                          src="photos/Bhaskar_Kudchadkar_mech.jpg" alt="image">
-          
-                        <div
-                          class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
-          
-                          <h1 class="text-xl font-semibold mb-3">Bhaskar Kudchadkar</h1>
-                          <p class="leading-relaxed mb-6">Chief Coordinator <br>Mechanical Department</p>
-          
-          
-                          <div class="flex flex-wrap ">
-          
-          
-                            <a target='_blank' href='https://wa.me/919860606340'
-                              class="bg-green-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105  hover:bg-black hover:text-white  text-center">
-                              <span class="    text-white">
-                                <i class="fab fa-whatsapp fa-2x" aria-hidden="true"></i> </span> </a>
-          
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-
-                    <!-- 1E -->
-                    <!--2 card-->
-                    <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
-                      <div
-                        class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                        <img loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center"
-                          src="photos/Sufiyan.jpeg" alt="image">
-          
-                        <div
-                          class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
-          
-                          <h1 class="text-xl font-semibold mb-3">Sufiyan Munshi</h1>
-                          <p class="leading-relaxed mb-6">Head Coordinator <br>ECOMP Department</p>
-          
-          
-                          <div class="flex flex-wrap ">
-          
-          
-                            <a target='_blank' href='https://wa.me/918668604717'
-                              class="bg-green-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105  hover:bg-black hover:text-white  text-center">
-                              <span class="    text-white">
-                                <i class="fab fa-whatsapp fa-2x" aria-hidden="true"></i> </span> </a>
-          
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- 2E -->
-                    <!--3 card-->
-                    <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
-                        <div class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                            <img loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center" src="photos/Shreya_Sawant.jpeg" alt="image">
-
-                            <div class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl">
-
-                                <h1 class="text-xl font-semibold mb-3">Shreya Sawant</h1>
-                                <p class="leading-relaxed mb-6">Chief Coordinator <br>Computer Department</p>
-
-
-                                <div class="flex flex-wrap ">
-
-
-                                    <a target='_blank' href='https://wa.me/917410728637' class="bg-green-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105  hover:bg-black hover:text-white  text-center">
-                    <span class="    text-white">
-                      <i class="fab fa-whatsapp fa-2x" aria-hidden="true"></i> </span> </a>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- 3E -->
-                    <!--4 card-->
-                    <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
-                        <div class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
-                            <img loading="lazy" class="lg:h-72  h-56  w-screen object-cover p-.5  object-center" src="photos/Hariette_Baretto_IT.jpg" alt="image">
-
-                            <div class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
-
-                                <h1 class="text-xl font-semibold mb-3">Harriette Barretto</h1>
-                                <p class="leading-relaxed mb-6">Chief Coordinator <br>IT Department</p>
-
-
-                                <div class="flex flex-wrap ">
-
-
-                                    <a target='_blank' href='https://wa.me/918975237705' class="bg-green-400  px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:bg-black hover:text-white  text-center">
-                    <span class="    text-white">
-                      <i class="fab fa-whatsapp fa-2x" aria-hidden="true"></i> </span> </a>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- 5E -->
-
-                    <!--5 card-->
-                    <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
-                      <div
-                        class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                        <img loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center"
-                          src="photos/Xavier_Rodrigues_mech.jpg" alt="image">
-          
-                        <div
-                          class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
-          
-                          <h1 class="text-xl font-semibold mb-3">Xavier Rodrigues</h1>
-                          <p class="leading-relaxed mb-6">Chief Coordinator <br>Mechanical Department</p>
-          
-          
-                          <div class="flex flex-wrap ">
-          
-          
-                            <a target='_blank' href='https://wa.me/919561467129'
-                              class="bg-green-400  px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105  hover:bg-black hover:text-white  text-center">
-                              <span class="    text-white">
-                                <i class="fab fa-whatsapp fa-2x" aria-hidden="true"></i> </span> </a>
-          
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- 6E -->
-
-                    <!--6 card-->
-                    <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
-                        <div class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                            <img loading="lazy" class="lg:h-72  h-56  w-screen object-cover p-.5  object-center" src="photos/Arya.S.jpeg" alt="image">
-
-                            <div class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
-
-                                <h1 class="text-xl font-semibold mb-3">Arya Shet Shirodkar</h1>
-                                <p class="leading-relaxed mb-6">Chief Coordinator <br> ECOMP Department</p>
-
-
-                                <div class="flex flex-wrap ">
-
-
-                                    <a target='_blank' href='https://wa.me/919325726079' class="bg-green-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105  hover:bg-black hover:text-white  text-center">
-                    <span class="    text-white">
-                      <i class="fab fa-whatsapp fa-2x" aria-hidden="true"></i> </span> </a>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- 7E -->
-
-                    <!--7 card-->
-                    <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
-                        <div class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                            <img loading="lazy" class="lg:h-72 h-56  w-screen object-cover p-.5  object-center" src="photos/Devraj_Chatribin_Comp.jpg" alt="image">
-
-                            <div class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
-
-                                <h1 class="text-xl font-semibold mb-3">Devraj Chatribin</h1>
-                                <p class="leading-relaxed mb-6">Chief Coordinator <br> Computer Department</p>
-
-
-                                <div class="flex flex-wrap ">
-
-
-                                    <a target='_blank' href='https://wa.me/919764789978' class="bg-green-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105  hover:bg-black hover:text-white  text-center">
-                    <span class="    text-white">
-                      <i class="fab fa-whatsapp fa-2x" aria-hidden="true"></i> </span> </a>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- 8E -->
-
-                    <!--8 card-->
-                    <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
-                        <div class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                            <img loading="lazy" class="lg:h-72 h-56  w-screen object-cover p-.5  object-center" src="photos/Sahil_Shirodkar_IT.jpg" alt="image">
-
-                            <div class="p-6  bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl  ">
-
-                                <h1 class="text-xl font-semibold mb-3">Sahil Shirodkar</h1>
-                                <p class="leading-relaxed mb-6">Chief Coordinator <br> IT Department</p>
-
-
-                                <div class="flex flex-wrap ">
-
-
-                                    <a target='_blank' href='https://wa.me/919867141653' class="bg-green-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:bg-black hover:text-white  text-center">
-                    <span class="    text-white">
-                      <i class="fab fa-whatsapp fa-2x" aria-hidden="true"></i> </span> </a>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- 8E -->
-                </div>
+              </a>
             </div>
-        </section>
+          </div>
 
-        <!-- team ENDDD-->
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a href='./event/event.html?event=Code-Quest'>
+                <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
+                  src="images/Enigma Thumbnails/3.png" alt="image">
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
 
-        <!--contact us  -->
-        <section id="Contactus" class="  flex items-center text-gray-600   mt-3 bg-black dark:bg-white px-6 mb-12 md:px-12  ">
-            <div class="px-5 py-24 container mx-auto ">
-                <div class="text-center mb-12 ">
-                    <h1 class="chakra  text-4xl text-white font-semibold uppercase faq dark:text-black">Contact Us</h1>
+                  <h1 class="text-2xl font-semibold  ">Code Quest</h1>
+                  <p class="leading-relaxed mb-6">ECOMP</p>
+
                 </div>
-                <div class="flex flex-wrap   ">
-                    <!--first card-->
-                    <div class="p-1 mb-1 lg:w-2/3 dark:text-black">
-                        <div class="h-full border-gray-200  border-opacity-60 rounded-lg overflow-hidden  transition duration-500 ease-in-out ">
+              </a>
+            </div>
+          </div>
 
-                            <div class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden  transition duration-500 ease-in-out ">
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a href='./event/event.html?event=Electronic-Art'>
+                <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
+                  src="images/Enigma Thumbnails/4.png " alt="image">
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
 
-                                <div class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white ">
+                  <h1 class="text-2xl font-semibold  ">Electronic-Art</h1>
+                  <p class="leading-relaxed mb-6">ECOMP</p>
 
-                                    <h1 class="text-2xl font-semibold   text-center mb-6">
-                                        TECHYON
-                                    </h1>
-                                    <p class="leading-relaxed mb-4">Follow us over social media for updates and for any queries contact official Techyon contact number.</p>
-                                    <div class="flex   ">
+                </div>
+              </a>
+            </div>
+          </div>
 
-                                        <a target='_blank' href='https://www.instagram.com/pccetechyon/' class="bg-pink-400 px-2 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:bg-black hover:text-white  text-center">
+
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a href='./event/event.html?event=Pitch-Tank'>
+                <img class=" md:h-56 h-48  w-screen object-cover   object-center" src="images/Enigma Thumbnails/5.png"
+                  alt="image">
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
+
+                  <h1 class="text-2xl font-semibold  ">Pitch Tank</h1>
+                  <p class="leading-relaxed mb-6">ECOMP</p>
+
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a href='./event/event.html?event=Line-Follower'>
+                <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
+                  src="images/Enigma Thumbnails/6.png" alt="image">
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
+
+                  <h1 class="text-2xl font-semibold  ">Line Follower</h1>
+                  <p class="leading-relaxed mb-6">ECOMP</p>
+
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a href='./event/event.html?event=BGMI'>
+                <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
+                  src="images/Enigma Thumbnails/7.png" alt="image">
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
+
+                  <h1 class="text-2xl font-semibold  ">BGMI</h1>
+                  <p class="leading-relaxed mb-6">ECOMP</p>
+
+                </div>
+              </a>
+            </div>
+          </div>
+
+
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a href='./event/event.html?event=Photography'>
+                <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
+                  src="images/Enigma Thumbnails/8.png" alt="image">
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
+
+                  <h1 class="text-2xl font-semibold  ">Photography</h1>
+                  <p class="leading-relaxed mb-6">ECOMP</p>
+
+                </div>
+              </a>
+            </div>
+          </div>
+
+
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a href='./event/event.html?event=Film-Making-Workshop'>
+                <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
+                  src="images/Enigma Thumbnails/9.png" alt="image">
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
+
+                  <h1 class="text-2xl font-semibold  ">Film Making Workshop</h1>
+                  <p class="leading-relaxed mb-6">ECOMP</p>
+
+                </div>
+              </a>
+            </div>
+          </div>
+
+
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a href='./event/event.html?event=Cosmic-Chaos'>
+                <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
+                  src="images/Enigma Thumbnails/10.png" alt="image">
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
+
+                  <h1 class="text-2xl font-semibold  ">Cosmic Chaos</h1>
+                  <p class="leading-relaxed mb-6">ECOMP</p>
+
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  ETC">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a href='./event/event.html?event=Reel-Estate'>
+                <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
+                  src="images/Enigma Thumbnails/11.png" alt="image">
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
+
+                  <h1 class="text-2xl font-semibold  ">Reel Estate</h1>
+                  <p class="leading-relaxed mb-6">ECOMP</p>
+
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!--1E -->
+          <!-- IT -->
+          <!--1 card-->
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT day1 intra">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a class='bg-transparent' href='./event/event.html?event=BGMI'>
+
+                <img loading="lazy" class=" md:h-56 h-48  w-screen object-cover   object-center"
+                  src="images/IT POSTERS/BGMI.jpeg" alt="image">
+
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
+
+                  <h1 class="text-2xl font-semibold  ">BGMI</h1>
+                  <p class="leading-relaxed">IT</p>
+                  <p class="leading-relaxed">DAY 1</p>
+                  <p class="leading-relaxed">Intra</p>
+
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT day1 intra">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a class='bg-transparent' href='./event/event.html?event=Clash-Royale'>
+
+                <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit    object-center"
+                  src="images/IT POSTERS/ClashRoyale.jpeg" alt="image">
+
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
+
+                  <h1 class="text-2xl font-semibold  ">Clash Royale</h1>
+                  <p class="leading-relaxed">IT</p>
+                  <p class="leading-relaxed ">DAY 1</p>
+                  <p class="leading-relaxed ">Intra</p>
+
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT day1 intra">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a class='bg-transparent' href='./event/event.html?event=Codetest'>
+                <img class=" md:h-56 h-48  w-screen object-cover   object-fit " src="images/IT POSTERS/Codetest.jpeg"
+                  alt="image">
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
+
+                  <h1 class="text-2xl font-semibold  ">Codetest</h1>
+                  <p class="leading-relaxed">IT</p>
+                  <p class="leading-relaxed ">DAY 1</p>
+                  <p class="leading-relaxed ">Intra</p>
+
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT day1 inter">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a class='bg-transparent' href='./event/event.html?event=CSGO'>
+
+                <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit    object-center"
+                  src="images/IT POSTERS/CSGO.jpeg" alt="image">
+
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
+
+                  <h1 class="text-2xl font-semibold  ">CSGO</h1>
+                  <p class="leading-relaxed">IT</p>
+                  <p class="leading-relaxed ">DAY 1</p>
+                  <p class="leading-relaxed ">Inter</p>
+
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT day2 intra">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a class='bg-transparent' href='./event/event.html?event=Figma-Forge'>
+
+                <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit  object-center"
+                  src="images/IT POSTERS/Figma Forge.jpeg" alt="image">
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
+
+                  <h1 class="text-2xl font-semibold  ">Figma Forge</h1>
+                  <p class="leading-relaxed">IT</p>
+                  <p class="leading-relaxed ">DAY 2</p>
+                  <p class="leading-relaxed ">Intra</p>
+
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT day2 intra">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a class='bg-transparent' href='./event/event.html?event=Lets-Solve'>
+                <img class=" md:h-56 h-48  w-screen object-fit   object-center" src="images/IT POSTERS/Lets solve_.jpeg"
+                  alt="image">
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
+
+                  <h1 class="text-2xl font-semibold  ">Lets Solve</h1>
+                  <p class="leading-relaxed">IT</p>
+                  <p class="leading-relaxed ">DAY 2</p>
+                  <p class="leading-relaxed ">Intra</p>
+
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT day3 intra">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a class='bg-transparent' href='./event/event.html?event=Power-BI-Workshop'>
+
+                <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit   object-center"
+                  src="images/IT POSTERS/POWER BI WORKSHOP (1).jpeg" alt="image">
+
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
+
+                  <h1 class="text-2xl font-semibold  ">Power BI Workshop</h1>
+                  <p class="leading-relaxed">IT</p>
+                  <p class="leading-relaxed ">DAY 3</p>
+                  <p class="leading-relaxed ">Intra</p>
+
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT day3 intra">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a class='bg-transparent' href='./event/event.html?event=Query-quest'>
+
+                <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit     object-center"
+                  src="images/IT POSTERS/QUERY QUEST.jpeg" alt="image">
+
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
+
+                  <h1 class="text-2xl font-semibold  ">Query Quest</h1>
+                  <p class="leading-relaxed">IT</p>
+                  <p class="leading-relaxed ">DAY 3</p>
+                  <p class="leading-relaxed ">Intra</p>
+
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT day1 intra">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a class='bg-transparent' href='./event/event.html?event=Qwiklabs'>
+
+                <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit object-center"
+                  src="images/IT POSTERS/Qwiklabs.jpeg" alt="image">
+
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
+
+                  <h1 class="text-2xl font-semibold  ">Qwiklabs</h1>
+                  <p class="leading-relaxed">IT</p>
+                  <p class="leading-relaxed ">DAY 1</p>
+                  <p class="leading-relaxed ">Intra</p>
+
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT day2 open">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a class='bg-transparent' href='./event/event.html?event=Seminar'>
+
+                <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit    object-center"
+                  src="images/IT POSTERS/Seminar.jpeg" alt="image">
+
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
+
+                  <h1 class="text-2xl font-semibold  ">Talk on Empowering Innovation By MS. Farheen Sayed</h1>
+                  <p class="leading-relaxed">IT</p>
+                  <p class="leading-relaxed ">DAY 1</p>
+                  <p class="leading-relaxed ">Intra</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="event_item p-2 sm:w-1/2 lg:w-1/3  IT day2 open">
+            <div
+              class="h-full   rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <a class='bg-transparent' href='./event/event.html?event=Tech-relay'>
+                <img loading="lazy" class=" md:h-56 h-48  w-screen object-fit     object-center"
+                  src="images/IT POSTERS/Tech relay.jpeg" alt="image">
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl h-full ">
+
+                  <h1 class="text-2xl font-semibold mb-2">Tech Relay</h1>
+                  <p class="leading-relaxed">IT</p>
+                  <p class="leading-relaxed ">DAY 1</p>
+                  <p class="leading-relaxed ">Intra</p>
+
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!--1E -->
+
+
+        </div>
+      </div>
+    </section>
+    <!--  ENDDDD   OUR EVENTS CARDS   ENDDD -->
+
+
+
+
+
+    <!--our team-->
+
+    <section id="Team" class=" flex items-center text-gray-600 mt-3 bg-black dark:bg-white  px-5 md:px-12 ">
+      <div class=" container px-5 py-5 mx-auto">
+        <div class="text-center mb-12 ">
+          <h1 class="chakra  text-4xl text-white font-semibold uppercase faq dark:text-black">Team</h1>
+        </div>
+        <div class="flex flex-wrap -m-4">
+
+          <!--1 card-->
+          <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
+            <div
+              class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <img loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center"
+                src="photos/Bhaskar_Kudchadkar_mech.jpg" alt="image">
+
+              <div
+                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
+
+                <h1 class="text-xl font-semibold mb-3">Bhaskar Kudchadkar</h1>
+                <p class="leading-relaxed mb-6">Chief Coordinator <br>Mechanical Department</p>
+
+
+                <div class="flex flex-wrap ">
+
+
+                  <a target='_blank' href='https://wa.me/919860606340'
+                    class="bg-green-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105  hover:bg-black hover:text-white  text-center">
+                    <span class="    text-white">
+                      <i class="fab fa-whatsapp fa-2x" aria-hidden="true"></i> </span> </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- 1E -->
+          <!--2 card-->
+          <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
+            <div
+              class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <img loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center"
+                src="photos/Sufiyan.jpeg" alt="image">
+
+              <div
+                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
+
+                <h1 class="text-xl font-semibold mb-3">Sufiyan Munshi</h1>
+                <p class="leading-relaxed mb-6">Head Coordinator <br>ECOMP Department</p>
+
+
+                <div class="flex flex-wrap ">
+
+
+                  <a target='_blank' href='https://wa.me/918668604717'
+                    class="bg-green-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105  hover:bg-black hover:text-white  text-center">
+                    <span class="    text-white">
+                      <i class="fab fa-whatsapp fa-2x" aria-hidden="true"></i> </span> </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2E -->
+          <!--3 card-->
+          <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
+            <div
+              class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <img loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center"
+                src="photos/Shreya_Sawant.jpeg" alt="image">
+
+              <div
+                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl">
+
+                <h1 class="text-xl font-semibold mb-3">Shreya Sawant</h1>
+                <p class="leading-relaxed mb-6">Chief Coordinator <br>Computer Department</p>
+
+
+                <div class="flex flex-wrap ">
+
+
+                  <a target='_blank' href='https://wa.me/917410728637'
+                    class="bg-green-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105  hover:bg-black hover:text-white  text-center">
+                    <span class="    text-white">
+                      <i class="fab fa-whatsapp fa-2x" aria-hidden="true"></i> </span> </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3E -->
+          <!--4 card-->
+          <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
+            <div
+              class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ">
+              <img loading="lazy" class="lg:h-72  h-56  w-screen object-cover p-.5  object-center"
+                src="photos/Bhumika Kushwaha _it.jpg" alt="image">
+
+              <div
+                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
+
+                <h1 class="text-xl font-semibold mb-3">Bhumika Kushwaha </h1>
+                <p class="leading-relaxed mb-6">Chief Coordinator <br>IT Department</p>
+
+
+                <div class="flex flex-wrap ">
+
+
+                  <a target='_blank' href='https://wa.me/918796084175'
+                    class="bg-green-400  px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:bg-black hover:text-white  text-center">
+                    <span class="    text-white">
+                      <i class="fab fa-whatsapp fa-2x" aria-hidden="true"></i> </span> </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5E -->
+
+          <!--5 card-->
+          <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
+            <div
+              class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+              <img loading="lazy" class="lg:h-72  h-56 w-screen object-cover p-.5  object-center"
+                src="photos/Xavier_Rodrigues_mech.jpg" alt="image">
+
+              <div
+                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
+
+                <h1 class="text-xl font-semibold mb-3">Xavier Rodrigues</h1>
+                <p class="leading-relaxed mb-6">Chief Coordinator <br>Mechanical Department</p>
+
+
+                <div class="flex flex-wrap ">
+
+
+                  <a target='_blank' href='https://wa.me/919561467129'
+                    class="bg-green-400  px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105  hover:bg-black hover:text-white  text-center">
+                    <span class="    text-white">
+                      <i class="fab fa-whatsapp fa-2x" aria-hidden="true"></i> </span> </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6E -->
+
+          <!--6 card-->
+          <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
+            <div
+              class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+              <img loading="lazy" class="lg:h-72  h-56  w-screen object-cover p-.5  object-center"
+                src="photos/Arya.S.jpeg" alt="image">
+
+              <div
+                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
+
+                <h1 class="text-xl font-semibold mb-3">Arya Shet Shirodkar</h1>
+                <p class="leading-relaxed mb-6">Chief Coordinator <br> ECOMP Department</p>
+
+
+                <div class="flex flex-wrap ">
+
+
+                  <a target='_blank' href='https://wa.me/919325726079'
+                    class="bg-green-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105  hover:bg-black hover:text-white  text-center">
+                    <span class="    text-white">
+                      <i class="fab fa-whatsapp fa-2x" aria-hidden="true"></i> </span> </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 7E -->
+
+          <!--7 card-->
+          <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
+            <div
+              class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+              <img loading="lazy" class="lg:h-72 h-56  w-screen object-cover p-.5  object-center"
+                src="photos/Shreyas prabhukhanolkar_comp.jpg" alt="image">
+              <div
+                class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl ">
+                <h1 class="text-xl font-semibold mb-3">Shreyas prabhukhanolkar</h1>
+                <p class="leading-relaxed mb-6">Chief Coordinator <br> Computer Department</p>
+                <div class="flex flex-wrap ">
+                  <a target='_blank' href='https://wa.me/917410728637'
+                    class="bg-green-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105  hover:bg-black hover:text-white  text-center">
+                    <span class="    text-white">
+                      <i class="fab fa-whatsapp fa-2x" aria-hidden="true"></i> </span> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 8E -->
+
+          <!--8 card-->
+          <div class="p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
+            <div
+              class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+              <img loading="lazy" class="lg:h-72 h-56  w-screen object-cover p-.5  object-center"
+                src="photos/Atharv Salgaonkar_it.jpg" alt="image">
+
+              <div
+                class="p-6  bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white dark:shadow-2xl  ">
+
+                <h1 class="text-xl font-semibold mb-3">Atharv Salgaonkar </h1>
+                <p class="leading-relaxed mb-6">Chief Coordinator <br> IT Department</p>
+
+
+                <div class="flex flex-wrap ">
+
+
+                  <a target='_blank' href='https://wa.me/918010633934'
+                    class="bg-green-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:bg-black hover:text-white  text-center">
+                    <span class="    text-white">
+                      <i class="fab fa-whatsapp fa-2x" aria-hidden="true"></i> </span> </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 8E -->
+        </div>
+      </div>
+    </section>
+
+    <!-- team ENDDD-->
+
+    <!--contact us  -->
+    <section id="Contactus"
+      class="  flex items-center text-gray-600   mt-3 bg-black dark:bg-white px-6 mb-12 md:px-12  ">
+      <div class="px-5 py-24 container mx-auto ">
+        <div class="text-center mb-12 ">
+          <h1 class="chakra  text-4xl text-white font-semibold uppercase faq dark:text-black">Contact Us</h1>
+        </div>
+        <div class="flex flex-wrap   ">
+          <!--first card-->
+          <div class="p-1 mb-1 lg:w-2/3 dark:text-black">
+            <div
+              class="h-full border-gray-200  border-opacity-60 rounded-lg overflow-hidden  transition duration-500 ease-in-out ">
+
+              <div
+                class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden  transition duration-500 ease-in-out ">
+
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out  dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white ">
+
+                  <h1 class="text-2xl font-semibold   text-center mb-6">
+                    TECHYON
+                  </h1>
+                  <p class="leading-relaxed mb-4">Follow us over social media for updates and for any queries contact
+                    official Techyon contact number.</p>
+                  <div class="flex   ">
+
+                    <a target='_blank' href='https://www.instagram.com/pccetechyon/'
+                      class="bg-pink-400 px-2 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:bg-black hover:text-white  text-center">
                       <span class="  text-2xl  text-white">
                         <i class="fab fa-instagram" aria-hidden="true"></i> </span> </a>
 
-                                        <a target='_blank' href="mailto:pccetechyon2k21@gmail.com" class="bg-red-400 px-2 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105  hover:bg-black hover:text-white  text-center">
+                    <a target='_blank' href="mailto:pccetechyon2k21@gmail.com"
+                      class="bg-red-400 px-2 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105  hover:bg-black hover:text-white  text-center">
                       <span class="  text-2xl  text-white">
                         <i class="fas fa-envelope-open-text" aria-hidden="true"></i> </span> </a>
 
-                                        <a target='_blank' href="https://www.google.com/maps/place/Padre+Conceicao+College+of+Engineering./@15.3269589,73.9313833,17z/data=!4m12!1m6!3m5!1s0x3bbfb6d4f1f6451d:0x5aa42df33ac41f6!2sPadre+Conceicao+College+of+Engineering.!8m2!3d15.3269589!4d73.933572!3m4!1s0x3bbfb6d4f1f6451d:0x5aa42df33ac41f6!8m2!3d15.3269589!4d73.933572"
-                                            class="bg-yellow-400 px-2 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:bg-black hover:text-white  text-center">
+                    <a target='_blank'
+                      href="https://www.google.com/maps/place/Padre+Conceicao+College+of+Engineering./@15.3269589,73.9313833,17z/data=!4m12!1m6!3m5!1s0x3bbfb6d4f1f6451d:0x5aa42df33ac41f6!2sPadre+Conceicao+College+of+Engineering.!8m2!3d15.3269589!4d73.933572!3m4!1s0x3bbfb6d4f1f6451d:0x5aa42df33ac41f6!8m2!3d15.3269589!4d73.933572"
+                      class="bg-yellow-400 px-2 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:bg-black hover:text-white  text-center">
                       <span class="  text-2xl  text-white">
                         <i class="fas fa-map-marked-alt" aria-hidden="true"></i> </span> </a>
 
-                                        <a target='_blank' href="https://www.youtube.com/watch?v=sMsJXxMba3I&ab_channel=VishrutMangoli" alt="promotional-video" class="bg-red-600 px-2 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:bg-black hover:text-white  text-center">
+                    <a target='_blank' href="https://www.youtube.com/watch?v=sMsJXxMba3I&ab_channel=VishrutMangoli"
+                      alt="promotional-video"
+                      class="bg-red-600 px-2 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:bg-black hover:text-white  text-center">
                       <span class="  text-2xl  text-white">
                         <i class="fab fa-youtube" aria-hidden="true"></i> </span> </a>
 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--1 ENDD-->
-                    <!--2 card-->
-                    <div class="p-1 w-full lg:w-2/6 dark:text-black my-auto ">
-                        <div class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden  transition duration-500 ease-in-out ">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--1 ENDD-->
+          <!--2 card-->
+          <div class="p-1 w-full lg:w-2/6 dark:text-black my-auto ">
+            <div
+              class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden  transition duration-500 ease-in-out ">
 
-                            <div class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden  transition duration-500 ease-in-out ">
+              <div
+                class="h-full border-gray-200 border-opacity-60 rounded-lg overflow-hidden  transition duration-500 ease-in-out ">
 
-                                <div class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white ">
+                <div
+                  class="p-6 bg-gray-800 text-white hover:bg-gray-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 dark:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-900 dark:hover:text-white ">
 
-                                    <h1 class="text-2xl font-semibold   text-center uppercase ">
-                                        Dev Team
-                                    </h1>
-                                    <p class="leading-relaxed mb-4  text-center">We found a bug &#128030; </p>
+                  <h1 class="text-2xl font-semibold   text-center uppercase ">
+                    Dev Team
+                  </h1>
+                  <p class="leading-relaxed mb-4  text-center">We found a bug &#128030; </p>
 
-                                    <div class="flex ">
+                  <div class="flex ">
 
-                                        <a class='bg-blue-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center' href='/devteam'>
+                    <a class='bg-blue-400 px-4 py-2 flex-1 m-1 rounded-lg  transition duration-500 ease-in-out  hover:bg-black hover:text-white  text-center'
+                      href='/devteam'>
                       <span class="  text-2xl  text-white">
                         <i class="fas fa-desktop" aria-hidden="true"></i> </span> </a>
 
 
 
 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--2 ENDD-->
-
-                    </div>
+                  </div>
                 </div>
-        </section>
-        <!-- -->
-        <section class="text-gray-600 bg-gray-900 body-font dark:bg-gray-200 dark:text-black container mx-auto" id="about">
-            <div class=" flex flex-row flex-wrap lg:flex-nowrap  py-12 justify-center ">
-                <div class="   my-2 p-8 ">
-                    <h1 class=" title-font uppercase mb-3 text-xl font-bold text-center  dark:text-gray-600  text-gray-300">
-                        About Techyon
-                    </h1>
-                    <p class="mt-2 lg:px-24 text-sm text-white dark:text-gray-700 ">Techyon is an inter college technical event held annually at PCCE. The word Techyon was derived from Tachyon which is a hypothetical particle with speed more than the speed of the light. It hosts various technical events across all
-                        the departments. </p>
-                </div>
+              </div>
+            </div>
+            <!--2 ENDD-->
 
-                <!-- <div class="   my-2 p-8 lg:w-1/2 ">
+          </div>
+        </div>
+    </section>
+    <!-- -->
+    <section class="text-gray-600 bg-gray-900 body-font dark:bg-gray-200 dark:text-black container mx-auto" id="about">
+      <div class=" flex flex-row flex-wrap lg:flex-nowrap  py-12 justify-center ">
+        <div class="   my-2 p-8 ">
+          <h1 class=" title-font uppercase mb-3 text-xl font-bold text-center  dark:text-gray-600  text-gray-300">
+            About Techyon
+          </h1>
+          <p class="mt-2 lg:px-24 text-sm text-white dark:text-gray-700 ">Techyon is an inter college technical event
+            held annually at PCCE. The word Techyon was derived from Tachyon which is a hypothetical particle with speed
+            more than the speed of the light. It hosts various technical events across all
+            the departments. </p>
+        </div>
+
+        <!-- <div class="   my-2 p-8 lg:w-1/2 ">
                     <h2 class=" font-bold text-white text-xl  dark:text-black text-center dark:text-gray-600  text-gray-300">Quick Links
                     </h2><br>
                     <nav class="  list-none flex flex-row space-x-2 justify-center leading-9   ">
@@ -1443,26 +1536,26 @@
                         </li>
                     </nav>
                 </div> -->
-            </div>
+      </div>
 
 
-        </section>
-
-
-
+    </section>
 
 
 
 
 
 
-        <!-- ======================================   FOOTER    ====================================== -->
+
+
+
+    <!-- ======================================   FOOTER    ====================================== -->
     <footer class="p-4 md:p-8 lg:p-10 dark:bg-gray-800">
       <!-- CONTACT & MAP -->
-      <div class="flex justify-center">
+      <div class="flex justify-center map-contact">
         <div class="flex md:flex-row flex-col justify-center max-w-7xl">
           <!-- CONTACT FORM -->
-          <div class="bg-black dark:bg-gray-700" style="border-radius: 10px 0px 0px 10px;" id="contactus">
+          <div class="bg-black dark:bg-gray-700" id="contactus">
             <div class="text-center mb-4 ">
               <h1 class="chakra  text-4xl text-white font-semibold uppercase faq dark:text-white mt-8">Contact Us</h1>
             </div>
@@ -1476,14 +1569,17 @@
               <div class="text-white m-6 z-200">
                 <form action="#" class="mt-10">
                   <div class="flex m-2">
-                      <ion-icon name="person-outline" class="m-2"></ion-icon> <p class="bg-gray-800 p-3  w-full text-center rounded-3xl">HEAD PERSON NAME</p>
-                          
+                    <ion-icon name="person-outline" class="m-2"></ion-icon>
+                    <p class="bg-gray-800 p-3  w-full text-center rounded-3xl">HEAD PERSON NAME</p>
+
                   </div>
                   <div class="flex m-2">
-                      <ion-icon name="mail-outline" class="m-2"></ion-icon> <p class="bg-gray-800 p-2 w-full text-center rounded-3xl">demo123@gmail.com</p>
+                    <ion-icon name="mail-outline" class="m-2"></ion-icon>
+                    <p class="bg-gray-800 p-2 w-full text-center rounded-3xl">demo123@gmail.com</p>
                   </div>
                   <div class="flex m-2">
-                      <ion-icon name="call-outline" class="m-2"></ion-icon> <p class="bg-gray-800 p-2 w-full text-center rounded-3xl">+91 1234567890</p>
+                    <ion-icon name="call-outline" class="m-2"></ion-icon>
+                    <p class="bg-gray-800 p-2 w-full text-center rounded-3xl">+91 1234567890</p>
                   </div>
                   <!-- <div class="flex m-2">
                       <ion-icon name="create-outline" class="m-2"></ion-icon> <input
@@ -1499,8 +1595,8 @@
             </div>
           </div>
           <!-- GOOGLE MAP -->
-          <div class="w-3/4 lg:w-2/3">
-            <div class="w-3/4 lg:w-1/2 overflow-contain h-min"> <iframe style="border-radius: 0px 10px 10px 0px;"
+          <div class="w-3/4 lg:w-1/2">
+            <div class="w-3/4 lg:w-2/3 overflow-contain h-min"> <iframe style="border-radius: 0px 10px 10px 0px;"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3847.9129709982376!2d73.92934481771073!3d15.326964033895702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb6d4f1f6451d%3A0x5aa42df33ac41f6!2sPadre%20Conceicao%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1676098123731!5m2!1sen!2sin"
                 width="600" height="450" style="border:0;" allowfullscreen=""
                 referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
@@ -1541,18 +1637,18 @@
           Reserved.</span>
       </div>
     </footer>
-        </div>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-        </script>
-        <script>
-          const typeWriter = document.getElementById('typewriter-text');
-          const text = 'TECHYON 2023';
-          typeWriter.innerHTML = text;
-          typeWriter.style.setProperty('--characters', text.length);
-        </script>
-        <script src="app.js"></script>
-
+  </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+  </script>
+  <script>
+    const typeWriter = document.getElementById('typewriter-text');
+    const text = 'TECHYON 2023';
+    typeWriter.innerHTML = text;
+    typeWriter.style.setProperty('--characters', text.length);
+  </script>
+  <script src="app.js"></script>
+  <script src="new.js"></script>
 </body>
 
 </html>

@@ -186,7 +186,8 @@ button {
 
 
 .typewriter-div {
-    min-width: 300px;
+    min-width: 200px;
+    overflow:visible;
   }
   
   .typewriter-effect {

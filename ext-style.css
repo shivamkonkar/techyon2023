@@ -383,3 +383,90 @@ button {
   .white-text:hover{
     color:#fff;
   }
+
+  /* Default styles for all devices */
+
+/* Styles for devices with a maximum width of 768px (typical for smartphones) */
+@media (max-width: 768px) {
+  /* Adjust font sizes, margins, or padding for smaller screens */
+  .typewriter-effect>.text {
+    max-width: 0;
+    animation: typing 5s steps(var(--characters)) infinite;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: hidden;
+    font-size:2rem;
+  }
+  .typewriter-effect::after {
+    color: #80ed99;
+    content: " |";
+    animation: blink 1s infinite;
+    animation-timing-function: step-end;
+    font-size: 2rem;
+  }
+
+  .all {
+    /* border:1px solid yellow; */
+    width: 100%;
+    height: 45%;
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    margin-bottom: 1%;
+  }
+  
+  .departments {
+    /* border:1px solid green; */
+    width: 45%;
+    height: 50%;
+    position: relative;
+    margin: 1%;
+    margin-top: 0px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+  }
+
+  .main-dept {
+    display: flex;
+    height: fit-content;
+    max-height: 40vh;
+    width: 100%;
+    align-items: center;
+    /* border:1px solid red; */
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .all-dept,
+.dept-names {
+  /* border:1px solid white; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.dept-cover {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  /* border:1px solid blue; */
+  top: 0px;
+  /* text-align: center; */
+  font-size: large;
+  font-weight: 500;
+  color: #fff;
+  word-spacing: 2px;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, rgba(6, 105, 141, 0.777), rgba(0, 0, 0, 0.9));
+  display: none;
+  padding: 5px;
+  box-sizing: border-box;
+}
+footer iframe{
+  width:95vw;
+  height:30vh;
+}
+}

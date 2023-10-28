@@ -32,12 +32,7 @@ $.getJSON("./data/eventsData.json", function (data) {
     if (data[param] != undefined) {
         console.log(data[param]["event-name"]);
 
-        eventName.innerText = data[param]["event-name"];
-        category.innerText = data[param]["department"];
-        eventType.innerText = data[param]["type"];
-        date.innerText = data[param]["date"];
-        time.innerText = data[param]["time"];
-        eventLocation.innerText = data[param]["location"];
+        
 
         let ruleText = "";
         let infoText = "";
